@@ -27,4 +27,4 @@ Features
 * Immediate Feedback: Changes are reflected instantly.
 
 
-* Customizable Range: Choose any line height value from 1 to 8.
+* Customizable Range: Choose any line height value from 0.5 to 8.
