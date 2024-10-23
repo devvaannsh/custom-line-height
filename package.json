@@ -1,18 +1,25 @@
 {
-    "title": "Name of the extension",
-    "name": "github-<owner>-<repo>",
-    "description": "A sample extension.",
+    "title": "Line Height",
+    "name": "github-Pluto-custom-line-height",
+    "description": "A simple extension that lets you specify line-height (line-spacing) in Phoenix Code",
     "version": "0.0.1",
     "license": "MIT",
-    "author": "your name (https://github.com/<your github id>)",
-    "homepage": "<project web page url or this github repo url if no website available>",
+    "author": "Pluto https://github.com/devvaannsh",
+    "homepage": "https://github.com/devvaannsh/custom-line-height",
     "engines": {
-        "brackets": ">=2.0.0"
+        "brackets": ">=3.0.0"
     },
-    "categories": "demo",
+    "categories": "editor",
     "keywords": [
-        "phcode", "extension", "demo"
-    ],
+        "line height",
+        "line spacing",
+        "vertical line",
+        "line zoom",
+        "vertical line spacing",
+        "line gap",
+        "margin",
+        "padding"
+    ]
     "files": [
         "main.js"
     ]
