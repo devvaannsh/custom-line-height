@@ -49,7 +49,7 @@ define(function (require, exports, module) {
             </div>
             <div style="font-size: 12px; color: #666;">
                 Quick Tips:<br>
-                • Press Shift + L + H to open this dialog<br>
+                • Press Shift + L to open this dialog<br>
                 • Default line height is 1.5<br>
                 • Values between 1.2 and 1.8 are recommended for readability
             </div>`,
@@ -103,10 +103,10 @@ define(function (require, exports, module) {
 
     // Put it in the View menu since it's display-related
     const menu = Menus.getMenu(Menus.AppMenuBar.VIEW_MENU);
-    menu.addMenuItem(MY_COMMAND_ID);
+    menu.addMenuItem(MY_COMMAND_ID, "Shift-L");
     
-    // Quick keyboard shortcut to save some clicks
-    KeyBindingManager.addBinding(MY_COMMAND_ID, {key: "Shift-L-H"});
+    // Add keyboard shortcut
+    KeyBindingManager.addBinding(MY_COMMAND_ID, "Shift-L");
 
     // Get everything ready when Phoenix Code starts
     AppInit.appReady(function () {
