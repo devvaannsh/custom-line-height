@@ -1,3 +1,5 @@
+Note: This feature is now integrated in Phoenix by default. To access this, go to `VIEW` > `Themes...` and set the line height property as per your preference.
+
 The Custom Line Height extension allows you to adjust the line height (line spacing) in your code editor, enhancing readability and reducing eye strain during coding sessions.
 
 
