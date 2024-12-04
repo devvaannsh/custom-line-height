@@ -2,12 +2,12 @@
     "title": "Line Height",
     "name": "github-Pluto-custom-line-height",
     "description": "A simple extension that lets you specify line-height (line-spacing) in Phoenix Code",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
     "author": "Pluto https://github.com/devvaannsh",
     "homepage": "https://github.com/devvaannsh/custom-line-height",
     "engines": {
-        "brackets": ">=3.0.0"
+        "brackets": "<3.10.0"
     },
     "categories": "editor",
     "keywords": [
